@@ -70,3 +70,6 @@ Bootstrapのリファレンス＆チートシートとして非常に便利で�
 [Kindleでサクッと持ちたい人](https://amzn.to/2T5THy1)
 
 **MarkdownではBootstrapは使えないので、別立てで用意してます。**
+
+## 作り方解説
+[簡易人月計算シミュレーターを作った！](https://note.com/nomuragoro/n/nf11cbbaf8f96)
