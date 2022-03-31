@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.2.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.7"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.2.0/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(), data);
+      })(() => window.markmap,null,{"t":"root","d":0,"v":"","c":[{"t":"heading","d":1,"p":{"lines":[0,1]},"v":"全体概要","c":[{"t":"heading","d":2,"p":{"lines":[1,2]},"v":"開発ポリシー","c":[{"t":"list_item","d":4,"p":{"lines":[2,3]},"v":"大手企業・大規模プロジェクト志向です。"},{"t":"list_item","d":4,"p":{"lines":[3,4]},"v":"スペシャリスト＜ジェネラリスト寄りのスキルセットです。"},{"t":"list_item","d":4,"p":{"lines":[4,5]},"v":"一人でできる幅が広いため、チームで弱い分野や苦手な分野をフォローするプレイングマネージャーの立ち回りの経験が多いです。"},{"t":"list_item","d":4,"p":{"lines":[5,6]},"v":"PMOとしてタスク・スケジュール管理をしながら運用を見据えたナレッジ化を意識するチームビルディングを心がけています。","c":[{"t":"list_item","d":6,"p":{"lines":[6,7]},"v":"比重は「開発＜QA(品質保証)＜保守＜運用」"},{"t":"list_item","d":6,"p":{"lines":[7,8]},"v":"QCDは、C &lt; D &lt; Q を意識すると2年運用した後でのシステムの満足度が高くなる傾向があると考え、設計します。"},{"t":"list_item","d":6,"p":{"lines":[8,9]},"v":"Qを高めるのは完璧なシステムではなく、やや不完全なシステムでも体系化されたナレッジ管理やオフィスオートメーションだと考えます"},{"t":"list_item","d":6,"p":{"lines":[9,10]},"v":"システムを入れて、足りない部分を運用でフォローできる体制を整えるまでがシステム開発と意識します。"}]}]},{"t":"heading","d":2,"p":{"lines":[11,12]},"v":"教育ポリシー","c":[{"t":"list_item","d":4,"p":{"lines":[12,13]},"v":"「失敗は悪いことではない」（許容する）文化を作ります","c":[{"t":"list_item","d":6,"p":{"lines":[13,14]},"v":"特に失敗体験は「こうすると失敗します」というケースが教本には書かれていない事が多いので、各章ごとにライブコーディングでエラーを起こし、解消する方法を見せます。"}]},{"t":"list_item","d":4,"p":{"lines":[14,15]},"v":"自分でデバッグできないシステムは開発を進められず、復習も困難である事を知っています。","c":[{"t":"list_item","d":6,"p":{"lines":[15,16]},"v":"座学講義では「その１行は書いてもエラーになるのかならないのか」と確認しながら進めます。"},{"t":"list_item","d":6,"p":{"lines":[16,17]},"v":"仮定を考えてもらい「なぜエラーになるのか、ならないのか」仕組みを考えます"},{"t":"list_item","d":6,"p":{"lines":[17,18]},"v":"学ぶための手段として、リバースエンジニアリングの体得を推奨しています。"}]}]}]},{"t":"heading","d":1,"p":{"lines":[19,20]},"v":"経歴概要","c":[{"t":"heading","d":2,"p":{"lines":[20,21]},"v":"主な業界","c":[{"t":"list_item","d":4,"p":{"lines":[21,22]},"v":"通信"},{"t":"list_item","d":4,"p":{"lines":[22,23]},"v":"医療"},{"t":"list_item","d":4,"p":{"lines":[23,24]},"v":"運輸"}]},{"t":"heading","d":2,"p":{"lines":[25,26]},"v":"主な職種","c":[{"t":"list_item","d":4,"p":{"lines":[26,27]},"v":"開発・QA / リリースQA"},{"t":"list_item","d":4,"p":{"lines":[27,28]},"v":"PM/PMO(プレイングマネージャー)"},{"t":"list_item","d":4,"p":{"lines":[28,29]},"v":"IT講師"}]},{"t":"heading","d":2,"p":{"lines":[30,31]},"v":"その他経歴","c":[{"t":"list_item","d":4,"p":{"lines":[31,32]},"v":"スライド風画面: https://shimajima-eiji.github.io/"},{"t":"list_item","d":4,"p":{"lines":[32,33]},"v":"Github: https://github.com/shimajima-eiji"},{"t":"list_item","d":4,"p":{"lines":[33,34]},"v":"ポートフォリオ: https://www.wantedly.com/id/nomuraya"},{"t":"list_item","d":4,"p":{"lines":[34,35]},"v":"本稿の一覧: https://shimajima-eiji.github.io/Hosting/croudtech/selfpr.html"}]}]}],"p":{}})</script>
+</body>
+</html>
